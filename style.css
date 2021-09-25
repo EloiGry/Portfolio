@@ -1,0 +1,154 @@
+body {
+
+font-family: 'Caveat';
+font-family: 'Quicksand';
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background: rgb(36,48,164);
+    background: linear-gradient(148deg, rgba(36,48,164,1) 0%, rgba(19,29,119,1) 50%, rgba(8,10,80,1) 100%);
+    background-repeat: no-repeat;
+}
+
+.eloi {
+    font-family: 'Caveat';
+    color: white;
+    font-size: 30px;
+}
+
+.item {
+    display: flex;
+}
+    
+
+.item li a {
+    padding: 0px 10px;
+    font-family: 'Quicksand';
+    text-decoration: none;
+    color: white;
+}
+
+.photo img {
+    height: 40px;
+    border-radius: 0px 20px;
+    margin-left: 10px;
+}
+
+.arrow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+i {
+    font-size: 30px;
+    color: white;
+}
+
+.section1 {
+    height: 500px;
+    background-image: url(/image-bureau.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.sect {
+    background-color:white;
+    opacity: 0.8;
+    height: 500px;
+    position: relative;
+}
+
+.sect h1 {
+    color: rgb(36,48,164);
+    font-size: 30px;
+    font-family: 'Quicksand';
+    text-align: center;
+    position: absolute;
+    font-weight: 600;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+h1 span {opacity: 0;}
+.letter01 {animation:letters 0s ease 0000ms forwards;}
+.letter02 {animation:letters 0s ease 0100ms forwards;}
+.letter03 {animation:letters 0s ease 0200ms forwards;}
+.letter04 {animation:letters 0s ease 0300ms forwards;}
+.letter05 {animation:letters 0s ease 0400ms forwards;}
+.letter06 {animation:letters 0s ease 0500ms forwards;}
+.letter07 {animation:letters 0s ease 0600ms forwards;}
+.letter08 {animation:letters 0s ease 0700ms forwards;}
+.letter09 {animation:letters 0s ease 0800ms forwards;}
+.letter10 {animation:letters 0s ease 0900ms forwards;}
+.letter11 {animation:letters 0s ease 1000ms forwards;}
+.letter12 {}
+.letter13 {animation:letters 0s ease 1100ms forwards;}
+.letter14 {animation:letters 0s ease 1200ms forwards;}
+.letter15 {animation:letters 0s ease 1300ms forwards;}
+.letter16 {}
+.letter17 {animation:letters 0s ease 1400ms forwards;}
+.letter18 {animation:letters 0s ease 1500ms forwards;}
+.letter19 {animation:letters 0s ease 1600ms forwards;}
+.letter20 {animation:letters 0s ease 1700ms forwards;}
+.letter21 {animation:letters 0s ease 1800ms forwards;}
+.letter22 {animation:letters 0s ease 1900ms forwards;}
+.letter23 {animation:letters 0s ease 2000ms forwards;}
+.letter24 {animation:letters 0s ease 2100ms forwards;}
+.letter25 {animation:letters 0s ease 2200ms forwards;}
+.letter26 {animation:letters 0s ease 2300ms forwards;}
+@keyframes letters {
+	0% {opacity:0;}
+	100% {opacity:1.0;}
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 20px;
+}
+
+.about h3 {
+    font-family: 'Caveat';
+    font-size: 40px;
+    margin: 10px 20px;
+}
+
+.about p {
+    font-family: 'Quicksand';
+    margin: 10px 20px
+}
+
+.myabout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carré {
+    height: 75px;
+    width: 75px;
+    border: 1px solid black;
+    margin: 20px;
+    background-image: linear-gradient(to left,green, yellow, red); 
+}
+
+
+.ligne1 {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.portfolio {
+    background: rgb(36,48,164);
+    background: linear-gradient(148deg, rgba(36,48,164,1) 0%, rgba(19,29,119,1) 50%, rgba(8,10,80,1) 100%);
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+
