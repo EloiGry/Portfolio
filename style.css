@@ -1,3 +1,5 @@
+
+
 body {
 
 font-family: 'Caveat';
@@ -25,11 +27,28 @@ header {
     
 
 .item li a {
-    padding: 0px 10px;
     font-family: 'Quicksand';
     text-decoration: none;
     color: white;
 }
+
+.b::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 0.8px;
+    background-color: white;
+    transform: scale(0);
+    transition: transform 0.5s ease-in-out;
+}
+
+.b:hover::after {
+    transform: scale(1);
+}
+
+
+  
+
 
 .photo img {
     height: 40px;
@@ -64,7 +83,7 @@ i {
 
 .sect h1 {
     color: rgb(36,48,164);
-    font-size: 30px;
+    font-size: 40px;
     font-family: 'Quicksand';
     text-align: center;
     position: absolute;
@@ -74,7 +93,10 @@ i {
     transform: translate(-50%);
 }
 
-h1 span {opacity: 0;}
+h1 span {opacity: 0;
+         margin: -5px;
+         white-space: nowrap;
+}
 .letter01 {animation:letters 0s ease 0000ms forwards;}
 .letter02 {animation:letters 0s ease 0100ms forwards;}
 .letter03 {animation:letters 0s ease 0200ms forwards;}
@@ -141,7 +163,7 @@ h1 span {opacity: 0;}
 .ligne1 {
     display: flex;
     justify-content: center;
-    
+    align-items: center;
 }
 
 .portfolio {
@@ -149,6 +171,23 @@ h1 span {opacity: 0;}
     background: linear-gradient(148deg, rgba(36,48,164,1) 0%, rgba(19,29,119,1) 50%, rgba(8,10,80,1) 100%);
     background-repeat: no-repeat;
     height: 500px;
+    margin: 50px 0px;
 }
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card1, .card2, .card3{
+    border: 1px solid lightgray;
+    border-radius: 30px;
+    margin: 20px;
+}
+
+footer {
+    background-color: #121212 ;
+}
+
 
 
